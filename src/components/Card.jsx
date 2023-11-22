@@ -1,5 +1,5 @@
 import React from 'react';
-// import img1 from '../assets/image-qr-code.png';
+import img1 from '../assets/image-qr-code.png';
 
 const Card = () => {
   return (
@@ -9,11 +9,7 @@ const Card = () => {
     >
       <div className='child bg-white w-[400px] rounded-xl'>
         <div className=' flex justify-center items-center w-full bg-white rounded-xl mx-auto '>
-          <img
-            className='rounded-xl p-2 w-full  mx-auto'
-            src='/public/images/image-qr-code.png'
-            alt='qr'
-          />
+          <img className='rounded-xl p-2 w-full  mx-auto' src={img1} alt='qr' />
         </div>
         <div className='text-xl font-medium text-black >'>
           <h3 className='text-center text-2xl '>
